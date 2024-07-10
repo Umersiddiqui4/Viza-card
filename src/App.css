@@ -1,38 +1,68 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* text-align: center; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.card {
+  background-image:url(../public/texture.jpg);
+  box-shadow: inset -2px -2px 6px 0 #0143a086,
+  inset -35px 0px 66px 0 #001635a1;
 }
 
-.App-link {
-  color: #61dafb;
+.wifi-icon{
+  /* height: 50px;
+  width: 50px; */
+  transform: rotate(90deg);
+  /* margin-top: 50px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#wifi{
+  height: 100%;
+  width: 100%;
+}
+.chip-img{
+  background-image: url(./assets/chip.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.cardNum{
+  font-family: "Barlow", sans-serif ;
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 8px;
+  /* letter-spacing: 3px; */
+  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.959),
+  -2px 0px 4px rgba(0, 0, 0, 0.959),
+  0px 2px 4px rgba(0, 0, 0, 0.959)
+  ;
+}
+.cardNum2{
+  /* font-family: "Barlow", sans-serif ; */
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 8px;
+  /* letter-spacing: 3px; */
+  text-shadow: 1px 0px 4px rgba(0, 0, 0, 0.959),
+  0px 0px 4px rgba(0, 0, 0, 0.959),
+  0px 2px 4px rgba(0, 0, 0, 0.959)
+  ;
+}
+.cardNum3{
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  word-spacing: 8px;
+  /* letter-spacing: 3px; */
+  text-shadow: 1px 0px 4px rgba(0, 0, 0, 0.959),
+  0px 0px 4px rgba(0, 0, 0, 0.959),
+  0px 0px 4px rgba(0, 0, 0, 0.959),
+  0px 2px 4px rgba(0, 0, 0, 0.959)
+  ;
+}
+.viza-img{
+  /* backdrop-filter:contrast(5); */
 }
